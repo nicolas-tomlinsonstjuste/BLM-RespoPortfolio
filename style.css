@@ -18,6 +18,11 @@ body {
 }
 .content-image {
     float: left;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    padding: 30px 30px 30px 30px;
 }
 main {
     background-image: url('Assets/BPF.jpg');
@@ -50,5 +55,14 @@ textarea{
 }
 form{
     margin: 0px auto;
+}
+.content-image2{
+
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 300px;
+        padding: 30px 30px 30px 30px;
+    
 }
 
