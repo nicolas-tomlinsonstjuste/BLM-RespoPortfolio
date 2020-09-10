@@ -1,0 +1,54 @@
+body {
+    background-color: darkgray;
+}
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+
+    border-radius: 20px;
+    background-color: #ccc;
+    padding:40px 15px;
+    margin-top: 30px;
+}
+.content-header {
+    text-align: center;
+}
+.content-image {
+    float: left;
+}
+main {
+    background-image: url('Assets/BPF.jpg');
+    flex: 1;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+input{
+    max-width: 400px;
+}
+textarea{
+    max-width: 400px;
+}
+.content2{
+
+    border-radius: 20px;
+    background-color: #ccc;
+    padding:40px 15px;
+    margin-top: 30px;
+    max-width: 75%;
+    margin: 30px auto;
+    
+}
+form{
+    margin: 0px auto;
+}
+
